@@ -20,4 +20,10 @@
  1. `sudo service postgresql start`
  2. `psql -c "create database restaurant_development`
  
-> Ending for today time 38m57s
+> I learned rails console
+
+`rails c`
+
+` Table.new(nam:"Dinner").save`
+
+` Table.create(name:"Lunch")` it will save automatically
