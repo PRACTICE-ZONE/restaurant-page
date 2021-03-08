@@ -22,12 +22,35 @@
  
 > I learned rails console
 
+> we crated the model by using the below command
+
+` rails g model Section name`
+
 `rails c`
 
-` Table.new(nam:"Dinner").save`
+` Section.new(nam:"Dinner").save`
 
-` Table.create(name:"Lunch")` it will save automatically
+` Section.create(name:"Lunch")` it will save automatically
 
-` Table.find(2)` find data by id 
+` Section.find(2)` find data by id 
 
-` Table.find_by(name:"Lunch)`  find by name
+` Section.find_by(name:"Lunch)`  find by name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
