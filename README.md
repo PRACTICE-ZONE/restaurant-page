@@ -36,6 +36,8 @@
 
 ` Section.find_by(name:"Lunch)`  find by name
 
+` Section.table_name` it will give `sections`
+
 
 
 
