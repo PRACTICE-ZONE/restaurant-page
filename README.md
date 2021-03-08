@@ -47,6 +47,8 @@
 
 > ` get "menu" => "menu#index"` 
 
+> Video end time: 24m56s 
+
 
 
 

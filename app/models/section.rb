@@ -1,3 +1,3 @@
 class Section < ApplicationRecord
-  validates :name, presence: true
+  validates :name, presence: true, uniquness: true
 end
