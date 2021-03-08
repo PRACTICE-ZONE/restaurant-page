@@ -38,6 +38,10 @@
 
 ` Section.table_name` it will give `sections`
 
+> geting the route we write like this
+
+> ` get "menu" => "menu#index"` 
+
 
 
 
