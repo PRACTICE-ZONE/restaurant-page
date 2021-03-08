@@ -17,4 +17,5 @@
 
 > Setup a rails 5 on cloud 9 with postgresql 
 
-`sudo service postgresql start`
+ 1. `sudo service postgresql start`
+ 2. `psql -c "create database restaurant_development`
