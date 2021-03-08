@@ -27,3 +27,7 @@
 ` Table.new(nam:"Dinner").save`
 
 ` Table.create(name:"Lunch")` it will save automatically
+
+` Table.find(2)` find data by id 
+
+` Table.find_by(name:"Lunch)`  find by name
