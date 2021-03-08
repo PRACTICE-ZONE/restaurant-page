@@ -14,3 +14,7 @@
 
 ***********************************************************************
 > Date: 8th March 2021
+
+> Setup a rails 5 on cloud 9 with postgresql 
+
+`sudo service postgresql start`
