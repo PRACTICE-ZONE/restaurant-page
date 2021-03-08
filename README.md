@@ -38,6 +38,11 @@
 
 ` Section.table_name` it will give `sections`
 
+` Section.last.destroy` destroys the last table 
+
+` Section.count`
+` a = Section.new(nam:"Dinner")`
+
 > geting the route we write like this
 
 > ` get "menu" => "menu#index"` 
