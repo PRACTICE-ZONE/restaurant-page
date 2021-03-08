@@ -1,3 +1,5 @@
 class MenuController < ApplicationController
-  def index; end
+  def index
+    @sections = Section.all
+  end
 end
