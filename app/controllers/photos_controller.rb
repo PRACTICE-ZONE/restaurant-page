@@ -1,11 +1,9 @@
 class PhotosController < ApplicationController
   def new
-    @photo = Photo.new 
+    @photo = Photo.new
   end
 
-  def index
-  end
+  def index; end
 
-  def show
-  end
+  def show; end
 end
