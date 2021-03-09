@@ -3,9 +3,9 @@
   
     <% @sections.each do |section| %>
     <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">
-          <%= section.name %>
-        </a>
+      <%= link_to(section.name, menu_path(section: section.name), 
+      class: "nav-link #{'active' if params[:section] == section.name}") %>
+      
       </li>
     <% end %>
 </ul>
