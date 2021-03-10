@@ -3,7 +3,13 @@
 <% @photo.each do |photo| %> 
  <div class="card photo" >
    <div class="card-header">
-     
+     <%= photo.username %>
+   </div>
+   <%= image_tag photo.url , class: "card-img-top" %>
+   <div class="card-block">
+     <p class="card-text">
+       <%= photo.caption %>
+     </p>
    </div>
  </div>
 <% end %> 
