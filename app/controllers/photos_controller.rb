@@ -3,7 +3,9 @@ class PhotosController < ApplicationController
     @photo = Photo.new
   end
 
-  def index; end
+  def index
+    @photo = Photo.order("updated_at DESC");
+  end
 
   def show; end
 end
