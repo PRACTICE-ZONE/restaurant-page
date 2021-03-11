@@ -15,4 +15,8 @@ if photo.count > 0
     exit
 end
 
-Photo.create!(url: )
+Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
+
+Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
+
+Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
