@@ -17,6 +17,6 @@ end
 
 Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
 
-Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
+Photo.create!(url: "http://images.unsplash.com/photo-1529736576495-1ed4a29ca7e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080", username: "Issa", likes_count: 34)
 
 Photo.create!(url: "https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg", username: "juma", likes_count: 4)
