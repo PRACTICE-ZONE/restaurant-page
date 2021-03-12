@@ -6,6 +6,10 @@ class PhotosController < ApplicationController
   def index
     @photo = Photo.order("updated_at DESC");
   end
-
+  
+  def create 
+    diedoeeo
+  end 
+  
   def show; end
 end
