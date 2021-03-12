@@ -24,5 +24,26 @@ Photo.create!(url: "https://mk0paperlessmovn94k7.kinstacdn.com/wp-content/upload
 puts "Seeded #{Photo.count} photos"
 
 10.times do 
-    
+    username = faker::HowIMetYourMother.character
+    caption = faker::HowIMetYourMother.quote
+    url = faker:loremPixel.image("500*500",false, "sports", nil, username)
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
