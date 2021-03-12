@@ -22,3 +22,7 @@ Photo.create!(url: "http://images.unsplash.com/photo-1529736576495-1ed4a29ca7e1?
 Photo.create!(url: "https://mk0paperlessmovn94k7.kinstacdn.com/wp-content/uploads/2019/09/o2dvsv2pnhe.jpg", username: "Photographer", likes_count: 483)
 
 puts "Seeded #{Photo.count} photos"
+
+10.times do 
+    
+end
