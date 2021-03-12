@@ -27,6 +27,9 @@ puts "Seeded #{Photo.count} photos"
     username = faker::HowIMetYourMother.character
     caption = faker::HowIMetYourMother.quote
     url = faker:loremPixel.image("500*500",false, "sports", nil, username)
+    Photo.create!(url:url, username:username, caption:caption, 
+    likes_count: Faker::Number.number(5))
+    
 end
 
 
