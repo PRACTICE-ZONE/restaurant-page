@@ -8,7 +8,9 @@ class PhotosController < ApplicationController
   end
   
   def create 
-    diedoeeo
+    photo_hash = params.require(:photo).permit(:username, :url)
+    @photo = Photo.new photo_hash
+    @photo.save
   end 
   
   def show; end
