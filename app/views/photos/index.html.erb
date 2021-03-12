@@ -4,6 +4,7 @@
     <div class ="card photo">
       <div class="card-header"> 
         <%= photo.username  %>
+        <%= time_ago_in_words photo.updated_at %>
       </div>
      <%= image_tag photo.url, class: "card-img-top", alt:"photo" %>
      <div class="card-block">
