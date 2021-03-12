@@ -72,6 +72,8 @@
 
 > video 17m00s learing params
 
+> finished the BR1-week4-day2-part4
+
 
 
 
