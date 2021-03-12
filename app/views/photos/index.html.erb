@@ -9,7 +9,11 @@
         <%= photo.username  %>
       </div>
      <%= image_tag photo.url, class: "card-img-top", alt:"photo" %>
-     
+     <div class="card-block">
+      <p class="card-text">
+        <%= photo.caption %>
+      </p>
+     </div>
     </div>
  <% end %>
    
