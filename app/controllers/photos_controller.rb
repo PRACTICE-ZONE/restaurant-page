@@ -10,8 +10,10 @@ class PhotosController < ApplicationController
   def create 
     
     @photo = Photo.new photo_params
-    if !@photo 
-      flas[:error] ="Erro creating a photo"
+    if @photo 
+      flash[:success] ="Photo created successfully"
+    else 
+      flash[:error] = "Invalid inputs please try again"
     end
     @photo.save
     redirect_to root_path
