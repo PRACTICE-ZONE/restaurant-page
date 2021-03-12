@@ -29,12 +29,9 @@
     </div>
   </div>
 </nav>
-<div class="alert alert-danger">
-  <%= flash[:error] %>
-</div>
-<div class="alert alert-success">
-  <%= flash[:success] %>
-</div>
+<% flash.each do |message_type, message| %>
+    <div class="alert alert-<%= message_type %>"><%= message %></div>
+  <% end %>
  
     <div class="container">
        <%= yield %>
