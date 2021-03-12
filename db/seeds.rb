@@ -10,7 +10,7 @@ puts "seeding data"
 
 if Photo.count > 0 
     puts "WARNING: There is existing data"
-    puts "To reseed, first go to rails console and type Photo.delete.all"
+    puts "To reseed, first go to rails console and type Photo.delete_all"
     puts "For heroku type heroku run rails console"
     exit
 end
@@ -24,8 +24,8 @@ Photo.create!(url: "https://mk0paperlessmovn94k7.kinstacdn.com/wp-content/upload
 puts "Seeded #{Photo.count} photos"
 
 10.times do 
-    username = faker::HowIMetYourMother.character
-    caption = faker::HowIMetYourMother.quote
+    username = Faker::HowIMetYourMother.character
+    caption = Faker::HowIMetYourMother.quote
     url = faker:loremPixel.image("500*500",false, "sports", nil, username)
     Photo.create!(url:url, username:username, caption:caption, 
     likes_count: Faker::Number.number(5))
