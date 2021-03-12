@@ -8,11 +8,14 @@ class PhotosController < ApplicationController
   end
   
   def create 
-    photo_hash = params.require(:photo).permit(:username, :url)
-    @photo = Photo.new photo_hash
+    
+    @photo = Photo.new photo_params
     @photo.save
     redirect_to root_path
   end 
   
   def show; end
+    def photo_params 
+      photo_hash = params.require(:photo).permit(:username, :url)
+    end
 end
