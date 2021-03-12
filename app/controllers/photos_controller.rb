@@ -13,7 +13,7 @@ class PhotosController < ApplicationController
     if @photo 
       flash[:success] ="Photo created successfully"
     else 
-      flash[:error] = "Invalid inputs please try again"
+      flash[:error] = "Error: #{@photo.errors.full_messages.to_sentence}"
     end
     @photo.save
     redirect_to root_path
