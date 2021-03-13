@@ -87,7 +87,14 @@
      
      `Rails g model FoodItem name:string section:references`
      
-     `Rails g migration Add`
+     `Rails g migration AddImageUrlToFoodItem image:string`
+     
+  > Rails architecture 
+    `app` 
+    
+    `db`
+    
+    `config`
 
 
 
