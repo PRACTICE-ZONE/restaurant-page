@@ -82,6 +82,12 @@
   > rails helpers `link_to, pluralize, image_tag, render`
   
            `form_for, f.text_field, f.number_field, f.hidden_field`
+           
+     > I learned association 
+     
+     `Rails g model FoodItem name:string section:references`
+     
+     `Rails g migration Add`
 
 
 
