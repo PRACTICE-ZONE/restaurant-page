@@ -2,8 +2,10 @@
 
 one:
   name: MyString
+  price: 9.99
   section: one
 
 two:
   name: MyString
+  price: 9.99
   section: two
