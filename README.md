@@ -74,7 +74,15 @@
 
 > finished the BR1-week4-day2-part4
 
+****************************************************************************
 
+> Date: 13th March 2021
+
+> What I learned 
+  
+  > rails helpers `link_to, pluralize, image_tag, render`
+  
+           `form_for, f.text_field, f.number_field, f.hidden_field`
 
 
 
