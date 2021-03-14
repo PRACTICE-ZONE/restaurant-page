@@ -117,7 +117,8 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 > Rails migrations commands 
 
  `
- `rails db:migration`
+ 
+ `rails db:migrate`
  
  `rails db:reset `
  
@@ -128,6 +129,7 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
  `rails db:rollback`
  
  `rails db:seed `
+ 
  
  `
  
