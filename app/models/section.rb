@@ -1,3 +1,3 @@
 class Section < ApplicationRecord
-  has_many :food_items, dependent: :destroy
+  has_many :foodItems, dependent: :destroy
 end
