@@ -108,7 +108,11 @@
 
 > Im stuck with the error which says that 
 
-    ``
+    `Caused by:
+    
+ActiveRecord::StatementInvalid:
+
+PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 
 
 
