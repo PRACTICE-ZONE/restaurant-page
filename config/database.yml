@@ -24,6 +24,26 @@ default: &default
 development:
   <<: *default
   database: restaurant_development
+  
+  development:
+ adapter: postgresql
+ encoding: unicode
+ database: my_database
+ host: localhost
+ port: 5432
+ pool: 5
+ username: postgres
+ password: xyz
+ 
+# development:
+# adapter: postgresql
+# encoding: unicode
+# database: my_database
+# host: localhost
+# port: 5432
+# pool: 5
+# username: postgres
+# password: xyz
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
