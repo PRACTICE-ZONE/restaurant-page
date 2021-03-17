@@ -7,5 +7,7 @@ class CreateFoodItems < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    
+    add_index :food_items, :section_id
   end
 end
