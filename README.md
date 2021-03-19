@@ -140,6 +140,7 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
  
  ********************************************************************
  > Date: 19th March 2021
+ > I removed the migration error 
 
 
 
