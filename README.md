@@ -138,6 +138,8 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
  
  > still working on the error 
  
+ ********************************************************************
+ > Date: 19th March 2021
 
 
 
