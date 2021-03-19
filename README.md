@@ -141,6 +141,13 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
  ********************************************************************
  > Date: 19th March 2021
  > I removed the migration error 
+ `ActiveRecord::StatementInvalid: PG::DuplicateTable: ERROR:  relation "food_items" already exists`
+ 
+ > by the following commands 
+ 
+ > `rails db:create`
+ > `rails db:reset`
+ > `rails db:migrate`
 
 
 
