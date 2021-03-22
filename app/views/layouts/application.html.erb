@@ -18,12 +18,14 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="<%= root_path %>">Home
-          <span class="sr-only"></span></a>
+          <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
-        
+        <li class="nav-item">
+          <a href="/" class="nav-link">Cart <%= @cart.item_count %></a>
+        </li>
        
       </ul>
      
