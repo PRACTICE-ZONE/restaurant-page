@@ -1,5 +1,11 @@
 class MenuController < ApplicationController
   def index
-    @sections = Section.all
+    unless  params[:section]
+      redirect_to menu_path(section: Section.first.name)
+    end
+       @sections = Section.all
+    section = Section.find_by(name: params[:section])
+    @food_items = section.food_items
+    @cart = Cart.create
   end
 end
