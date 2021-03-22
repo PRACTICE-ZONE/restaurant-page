@@ -149,6 +149,11 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
  > `rails db:reset`
  > `rails db:migrate`
 
+********************************************************************
+
+> Date 22nd March 2021
+
+> BR1 week4 day4 part1 
 
 
 
