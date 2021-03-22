@@ -10,7 +10,7 @@ class MenuController < ApplicationController
   end
   def set_cart
     @cart = Cart.create
-    session[:cart_id] = cart.id 
+    session[:cart_id] = @cart.id 
     @cart 
   end
   def get_cart 
