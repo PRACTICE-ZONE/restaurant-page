@@ -8,4 +8,8 @@ class MenuController < ApplicationController
     @food_items = section.food_items
     @cart = Cart.create
   end
+  def set_cart
+    cart = Cart.create
+    
+  end
 end
