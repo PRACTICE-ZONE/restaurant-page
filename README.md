@@ -178,6 +178,8 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 *       [x] section
 *       [x] Image url
 
+* [x] User should be able to filter by section i.e by breakfast or lunch etc
+
 
 
 
