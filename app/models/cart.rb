@@ -1,5 +1,5 @@
 class Cart < ApplicationRecord
   def item_count
-    @cart
+    0
   end
 end
