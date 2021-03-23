@@ -32,12 +32,13 @@ puts "Seeded #{Photo.count} photos"
     
 # end
 
-FoodItem.create(name:"ugali", price: 100, section_id:8,Order:"hee",Description:"Nice food")
+# FoodItem.create(name:"ugali", price: 100, section_id:8,Order:"hee",Description:"Nice food")
+
 sections = Section.all
 20.times do 
     FoodItem.create(
-        name: Faker:Food.dish
-        section: sections.sample
+        name: Faker::Food.dish,
+        section: sections.sample,
         price: rand(10..200) * 1000
         )
 end
