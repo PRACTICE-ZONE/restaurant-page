@@ -167,9 +167,9 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 * [x] User can navigate to a menu page with four sections
 
 
-      * [x] Breakfast 
-      * [x] Lunch 
-      * [x] Dinner
+    * [x] Breakfast 
+    * [x] Lunch 
+    * [x] Dinner
       
 * [x] User should see at least 5 food items in each section 
 * [x] Each food item should have the following field
