@@ -183,6 +183,10 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 
 * [x] User should be able to filter by section i.e by breakfast or lunch etc
 * [x] User can sort menu item by alphabeical or by price
+* [x] User should be able to search for a menu item and see result
+* [x] Clicking on an item in the menu brings up its detail where you see the
+ 
+   description and  a large picture
 
 
 
