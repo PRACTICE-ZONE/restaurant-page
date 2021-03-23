@@ -166,19 +166,23 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 * [x] User can see basic google map on the contact us page 
 * [x] User can navigate to a menu page with four sections
 
+
       * [x] Breakfast 
       * [x] Lunch 
       * [x] Dinner
       
 * [x] User should see at least 5 food items in each section 
 * [x] Each food item should have the following field
-*       [x] Name 
-*       [x] Description 
-*       [x] Price 
-*       [x] section
-*       [x] Image url
+
+
+    * [x] Name 
+    * [x] Description 
+    * [x] Price 
+    * [x] section
+    * [x] Image url
 
 * [x] User should be able to filter by section i.e by breakfast or lunch etc
+* [x] User can sort menu item by alphabeical or by price
 
 
 
