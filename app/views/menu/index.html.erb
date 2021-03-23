@@ -12,6 +12,14 @@
 <% if @food_items.present? %>
     <br><br>
     <% @food_items.each do |food_item| %>
-    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="<%= food_item.image_url %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><%= food_item.name %> <br>
+    <%= number_to_currency(food_item.price) %></h5>
+    <p class="card-text">the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     <% end %>
 <% end %>
