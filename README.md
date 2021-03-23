@@ -161,7 +161,16 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 
 > Date: 23rd March 2021
 
-* User must be able to go two pages i.e Menu and contact us
+* [x] User must be able to go two pages i.e Menu and contact us
+* [x] User can see the addres and phone number on the contact us page 
+* [x] 
+
+
+
+
+
+
+
 
 
 
