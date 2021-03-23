@@ -163,9 +163,8 @@ PG::UndefinedTable: ERROR:  relation "sections" does not exist`
 
 * [x] User must be able to go two pages i.e Menu and contact us
 * [x] User can see the addres and phone number on the contact us page 
+* [x] User can see basic google map on the contact us page 
 * [x] 
-
-
 
 
 
