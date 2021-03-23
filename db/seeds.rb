@@ -32,6 +32,8 @@ puts "Seeded #{Photo.count} photos"
     
 # end
 
+FoodItem.create(name:"ugali", price: 100, section_id:1,Order:"hee",Description:"Nice food")
+
 
 
 
