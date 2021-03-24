@@ -1,26 +1,26 @@
 <h1>Menu</h1>
 <ul class="nav nav-pills">
   <h2><%= @cart.item_count %></h2>
-<!--    <% @sections.each do |section| %>-->
-<!--    <li class="nav-item">-->
-<!--      <%= link_to(section.name, menu_path(section: section.name), -->
-<!--      class: "nav-link #{'active' if params[:section] == section.name}") %>-->
+    <% @sections.each do |section| %>
+    <li class="nav-item">
+      <%= link_to(section.name, menu_path(section: section.name), 
+      class: "nav-link #{'active' if params[:section] == section.name}") %>
       
-<!--      </li>-->
-<!--    <% end %>-->
-<!--</ul>-->
-<!--<% if @food_items.present? %>-->
-<!--    <%= Hello %>-->
-<!--    <br><br>-->
-<!--    <% @food_items.each do |food_item| %>-->
-<!--    <div class="card" style="width: 18rem;">-->
-<!--  <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--  <div class="card-body">-->
-<!--    <h5 class="card-title"><%= food_item.name %> <br>-->
-<!--    <%= number_to_currency(food_item.price) %></h5>-->
-<!--    <p class="card-text"><%= food_item.description %> </p>-->
-<!--    <a href="#" class="btn btn-primary">Order</a>-->
-<!--  </div>-->
-<!--</div>-->
-<!--    <% end %>-->
-<!--<% end %>-->
+      </li>
+    <% end %>
+</ul>
+<% if @food_items.present? %>
+    <%= Hello %>
+    <br><br>
+    <% @food_items.each do |food_item| %>
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><%= food_item.name %> <br>
+    <%= number_to_currency(food_item.price) %></h5>
+    <p class="card-text"><%= food_item.description %> </p>
+    <a href="#" class="btn btn-primary">Order</a>
+  </div>
+</div>
+    <% end %>
+<% end %>
