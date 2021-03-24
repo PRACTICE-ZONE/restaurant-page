@@ -11,7 +11,7 @@ class MenuController < ApplicationController
   def set_cart
     @cart = Cart.create
     session[:cart_id] = @cart.id 
-    @cart 
+    # @cart 
   end
   def get_cart 
     if session[:cart_id]
