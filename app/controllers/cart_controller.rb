@@ -1,2 +1,5 @@
-class Cart < ApplicationController 
+class Cart < ApplicationController
+  def index
+    
+end
 end 
